@@ -1,0 +1,56 @@
+---
+title: 聯絡我們
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-xl-7">
+            <h1 class="h3 text-center mb-4 mb-md-5">聯絡我們</h1>
+            <!-- 地圖待處理 -->
+            <img class="mb-4" src="" alt="地圖">
+            <h2 class="mb-3">DOYOGA 教室位置</h2>
+            <ul class="list-unstyled mb-6">
+                <li class="mb-3 mb-md-5 mb-xl-3">高雄市苓雅區北信街 23 號 2 樓</li>
+                <li class="mb-3">
+                    <p class="mb-0 d-md-none mb-xl-0 d-xl-inline">如何前往：</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-4">1. 搭乘捷運：紅線到正義站 3 號出口，延正義路方向至北信街交叉口即可。</li>
+                        <li class="mb-4">2. 搭乘公車：搭這些公車都可以抵達正義站 24B 25 33 50 76 77 77區 100</li>
+                        <li class="mb-4">3. 開車前往北信街 32 號，教室旁有專屬停車場可以使用。</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="col-xl-5">
+            <form action="#" class="bg-primary rounded-3 p-5">
+                <div class="container">
+                    <h2 class="mb-3 mb-md-4">意見回饋&問題詢問</h2>
+                    <!-- input padding 6px 12px 待處理 -->
+                    <div class="mb-3 mb-md-4">
+                        <label for="name" class="mb-2">姓名</label>
+                        <input type="text" class="w-100 px-3 py-2" name="name" id="name" placeholder="請輸入您的姓名">
+                    </div>
+                    <div class="mb-3 mb-md-4">
+                        <label for="email" class="mb-2">電子信箱</label>
+                        <input type="email" class="w-100 px-3 py-2" name="email" id="email" placeholder="email@example.com">
+                    </div>
+                    <div class="mb-3 mb-md-4">
+                        <label for="phone" class="mb-2">手機號碼</label>
+                        <input type="phone" class="w-100 px-3 py-2" name="phone" id="phone" placeholder="0912-345-678">
+                    </div>
+                    <div class="mb-3 mb-md-4">
+                        <label for="suggestion" class="mb-2">意見回饋</label>
+                        <textarea class="w-100 px-3 py-2" name="suggestion" id="suggestion" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="text-end mb-3 mb-md-4">
+                        <!-- padding 6px 12px 待處理 -->
+                        <input type="submit" class="rounded-2 border-0 bg-secondary text-white" value="送出">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
