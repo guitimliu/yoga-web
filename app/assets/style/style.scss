@@ -1,5 +1,23 @@
 @import './layout/_index.scss';
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .footer {
     background-color: #907A7B;
+}
+
+.notice {
+    width: 445px;
+    max-width: 100%;
+}
+
+.plan-img {
+    height: 238px;
+}
+
+.btn-reverse {
+    margin-right: 30px;
 }
