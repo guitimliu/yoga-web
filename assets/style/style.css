@@ -22,4 +22,8 @@ img {
   margin-right: 30px;
 }
 
+.list-style-disc {
+  list-style-type: disc;
+}
+
 /*# sourceMappingURL=style.css.map */
