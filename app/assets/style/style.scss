@@ -1,5 +1,30 @@
 @import './layout/_index.scss';
 
+@mixin pad () {
+    @media (min-width: 767px) {
+        @content;
+    }
+}
+
+@mixin pc () {
+    @media (min-width: 991px) {
+        @content;
+    }
+}
+
+@mixin banner ($url, $height, $height_pad: $height, $height_pc: $height) {
+    height: $height;
+    background-image: url($url);
+
+    @include pad () {
+        height: $height_pad;
+    }
+
+    @include pc () {
+        height: $height_pc;
+    }
+} 
+
 img {
     max-width: 100%;
     height: auto;
@@ -25,4 +50,43 @@ img {
 .logo {
     width: 96px;
     height: 31px;
+}
+
+.banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-home {
+    @include banner ('../images/photo-1612157777902-5382bc6e864b.jpeg', 560px, 582px);
+    background-attachment: fixed;
+}
+
+.banner-img1 {
+    @include banner ('../images/photo-1593810450967-f9c42742e326.jpeg', 420px, 252px, 420px);
+}
+
+.banner-img2 {
+    @include banner ('../images/photo-1593810451137-5dc55105dace.jpeg', 420px, 252px, 420px);
+}
+
+.banner-img3 {
+    @include banner ('../images/photo-1599901860904-17e6ed7083a0.jpeg', 420px, 252px, 420px);
+}
+
+.banner-img4 {
+    @include banner ('../images/photo-1540206276207-3af25c08abc4.jpeg', 0px, 0px, 628px);
+}
+
+.title {
+    font-size: 36px;
+}
+
+.note-for-class {
+    width: 100px;
+
+    @include pc () {
+        width: 579px;
+    }
 }
