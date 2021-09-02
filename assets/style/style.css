@@ -1,12 +1,29 @@
-.index__h1 {
-  color: #00cc99;
-  font-size: 20px;
-  font-weight: 400;
+body {
+  line-height: 1.5;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, ul {
+  margin-bottom: 0;
+}
+
+.banner {
+  height: 560px;
+  background-image: url(../images/photo-1612157777902-5382bc6e864b.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+@media (min-width: 767px) {
+  .banner {
+    height: 582px;
+  }
 }
 
 .notice {
@@ -26,101 +43,13 @@ img {
   list-style-type: disc;
 }
 
+.rounded-4 {
+  border-radius: 1rem;
+}
+
 .logo {
   width: 96px;
   height: 31px;
-}
-
-.banner {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.banner-home {
-  height: 560px;
-  background-image: url("../images/photo-1612157777902-5382bc6e864b.jpeg");
-  background-attachment: fixed;
-}
-
-@media (min-width: 767px) {
-  .banner-home {
-    height: 582px;
-  }
-}
-
-@media (min-width: 991px) {
-  .banner-home {
-    height: 560px;
-  }
-}
-
-.banner-img1 {
-  height: 420px;
-  background-image: url("../images/photo-1593810450967-f9c42742e326.jpeg");
-}
-
-@media (min-width: 767px) {
-  .banner-img1 {
-    height: 252px;
-  }
-}
-
-@media (min-width: 991px) {
-  .banner-img1 {
-    height: 420px;
-  }
-}
-
-.banner-img2 {
-  height: 420px;
-  background-image: url("../images/photo-1593810451137-5dc55105dace.jpeg");
-}
-
-@media (min-width: 767px) {
-  .banner-img2 {
-    height: 252px;
-  }
-}
-
-@media (min-width: 991px) {
-  .banner-img2 {
-    height: 420px;
-  }
-}
-
-.banner-img3 {
-  height: 420px;
-  background-image: url("../images/photo-1599901860904-17e6ed7083a0.jpeg");
-}
-
-@media (min-width: 767px) {
-  .banner-img3 {
-    height: 252px;
-  }
-}
-
-@media (min-width: 991px) {
-  .banner-img3 {
-    height: 420px;
-  }
-}
-
-.banner-img4 {
-  height: 0px;
-  background-image: url("../images/photo-1540206276207-3af25c08abc4.jpeg");
-}
-
-@media (min-width: 767px) {
-  .banner-img4 {
-    height: 0px;
-  }
-}
-
-@media (min-width: 991px) {
-  .banner-img4 {
-    height: 628px;
-  }
 }
 
 .title {
