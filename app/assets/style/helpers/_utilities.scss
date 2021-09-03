@@ -1,0 +1,12 @@
+$utilities: map-merge(
+    $utilities,
+    (
+        "rounded": (
+            property: border-radius,
+            class: rounded,
+            values: (
+                4: 1rem,
+            )
+        ),
+    )
+);

@@ -1,7 +1,16 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "helpers/variables";
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/utilities";
+@import "node_modules/bootstrap/scss/utilities/api";
+@import "helpers/utilities";
+@import "node_modules/bootstrap/scss/bootstrap";
+
 @import 'helpers/minix';
 @import 'helpers/base';
 
 @import 'components/banner';
+@import 'components/images';
 
 .notice {
     width: 445px;
@@ -19,27 +28,6 @@
 .list-style-disc {
     list-style-type: disc;
 }
-
-.rounded-4 {
-    border-radius: 1rem;
-}
-
-.logo {
-    width: 96px;
-    height: 31px;
-}
-
-// .banner-img1 {
-//     @include banner ('../images/photo-1593810450967-f9c42742e326.jpeg', 420px, 252px, 420px);
-// }
-
-// .banner-img2 {
-//     @include banner ('../images/photo-1593810451137-5dc55105dace.jpeg', 420px, 252px, 420px);
-// }
-
-// .banner-img3 {
-//     @include banner ('../images/photo-1599901860904-17e6ed7083a0.jpeg', 420px, 252px, 420px);
-// }
 
 // .banner-img4 {
 //     @include banner ('../images/photo-1540206276207-3af25c08abc4.jpeg', 0px, 0px, 628px);

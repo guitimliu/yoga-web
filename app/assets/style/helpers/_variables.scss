@@ -250,6 +250,7 @@ $gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0)) !default;
 $spacer: 1rem !default;
 $spacers: (
   0: 0, // 0px
+  0.5: $spacer * .125, // 2px
   1: $spacer * .25, // 4px
   2: $spacer * .5, // 8px
   2.5: $spacer * 6.25, // 10px
@@ -267,6 +268,7 @@ $spacers: (
   14: $spacer * 3.5, // 56px
   15: $spacer * 3.75, // 60px
   16: $spacer * 4, // 64px
+  17: $spacer * 5.9375, // 95px
 ) !default;
 
 // 3: 4
@@ -393,6 +395,7 @@ $border-color:                $gray-300 !default;
 $border-radius:               .25rem !default;
 $border-radius-sm:            .2rem !default;
 $border-radius-lg:            .3rem !default;
+$border-radius-xl:            1rem;
 $border-radius-pill:          50rem !default;
 // scss-docs-end border-radius-variables
 

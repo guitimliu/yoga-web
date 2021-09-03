@@ -1,0 +1,18 @@
+.img {
+    width: 100%;
+    /* Logo */
+    &__logo {
+        width: 93px;
+        height: 31px;
+    }
+    /* 首頁：感受身心，活在當下 */
+    &__advantage {
+        height: 420px;
+        @include pad () {
+            height: 252px;
+        }
+        @include pc () {
+            height: 420px;
+        }
+    }
+}
