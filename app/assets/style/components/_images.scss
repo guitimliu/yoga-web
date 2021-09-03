@@ -15,4 +15,53 @@
             height: 420px;
         }
     }
+    /* 首頁：頂尖師資、專業教學 */
+    &__teacher {
+        height: 628px;
+    }
+    /* 首頁：精心設計、課程多元 */
+    &__introduce {
+        height: 165px;
+        @include pad () {
+            height: 150px;
+        }
+        @include pc () {
+            // height: 445px;
+            height: 150px;
+        }
+    }
+    /* 首頁：舒適空間、靜心放鬆 */
+    &__space {
+        height: 210px;
+        @include pad () {
+            height: 266px;
+        }
+        @include pc () {
+            height: 444px;
+        }
+        &--son {
+            display: none;
+            @include pad () {
+                display: block;
+                height: 117px;
+            }
+            @include pc () {
+                height: 207px;
+            }
+            &:nth-child(1) {
+                display: block;
+                height: 210px;
+                @include pad () {
+                    height: 117px;
+                }
+                @include pc () {
+                    height: 207px;
+                }
+            }
+        }
+    }
+    /* 方案選擇 */
+    &__plan {
+        height: 238px;
+    }
 }
