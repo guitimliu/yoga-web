@@ -7,6 +7,14 @@ img {
     height: auto;
 }
 
+h1 {
+    padding-top: 48px;
+
+    @include pad () {
+        padding-top: 64px;
+    }
+}
+
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 , h6, .h6, p, span, ul {
     margin-bottom: 0;
 }
