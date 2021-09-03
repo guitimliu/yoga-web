@@ -250,18 +250,22 @@ $gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0)) !default;
 $spacer: 1rem !default;
 $spacers: (
   0: 0, // 0px
-  0.5: $spacer * .125, // 2px
+  0\.5: $spacer * .125, // 2px
   1: $spacer * .25, // 4px
   2: $spacer * .5, // 8px
-  2.5: $spacer * 6.25, // 10px
+  2\.3: $spacer * .375, // 6px
+  2\.4: $spacer * .4375, // 7px
+  2\.5: $spacer * .625, // 10px
+  2\.6: $spacer * .6875, // 11px
   3: $spacer * .75, // 12px
-  3.5: $spacer * .875, // 14px
+  3\.5: $spacer * .875, // 14px
   4: $spacer, // 16px
   5: $spacer * 1.25, // 20px
   6: $spacer * 1.5, // 24px
   7: $spacer * 1.75, // 28px
   8: $spacer * 2, // 32px
   9: $spacer * 2.25, // 36px
+  9\.5: $spacer * 2.375, // 38px
   10: $spacer * 2.5, // 40px
   11: $spacer * 2.75, // 44px
   12: $spacer * 3, // 48px
@@ -269,7 +273,11 @@ $spacers: (
   14: $spacer * 3.5, // 56px
   15: $spacer * 3.75, // 60px
   16: $spacer * 4, // 64px
-  17: $spacer * 5.9375, // 95px
+  17: $spacer * 5, // 80px
+  18: $spacer * 5.5, // 88px
+  19: $spacer * 5.9375, // 95px
+  20: $spacer * 6, // 96px
+  21: $spacer * 6.875 // 110px
 ) !default;
 
 // 3: 4

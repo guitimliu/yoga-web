@@ -64,4 +64,13 @@
     &__plan {
         height: 238px;
     }
+    &__map {
+        height: 195px;
+        @include pad () {
+            height: 323px;
+        }
+        @include pc () {
+            height: 360px;
+        }
+    }
 }
